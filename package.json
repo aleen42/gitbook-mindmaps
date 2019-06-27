@@ -1,0 +1,42 @@
+{
+  "name": "gitbook-plugin-mind-maps",
+  "version": "1.0.0",
+  "description": "A GitBook plugin for generating mindmaps within Markdown.",
+  "main": "./index.js",
+  "scripts": {
+    "dev": "webpack --colors --watch",
+    "prod": "webpack --colors"
+  },
+  "engines": {
+    "node": "10.x",
+    "gitbook": ">=3.0.0-pre.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleen42/gitbook-comments.git"
+  },
+  "keywords": [
+    "gitbook",
+    "gitbook-plugin",
+    "mind-maps"
+  ],
+  "author": "Aleen <aleen42@vip.qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aleen42/gitbook-comments/issues"
+  },
+  "dependencies": {
+    "markmap": "0.6.0"
+  },
+  "homepage": "https://github.com/aleen42/gitbook-comments#readme",
+  "devDependencies": {
+    "babel-core": "6.26.2",
+    "babel-loader": "7.1.4",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-es2015": "6.24.1",
+    "css-loader": "2.1.1",
+    "mini-css-extract-plugin": "0.6.0",
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0"
+  }
+}
