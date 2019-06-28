@@ -28,9 +28,12 @@ const transform = require('markmap-transform');
 
 const markmap = require('markmap-mindmap');
 
-$('svg.mindmaps').each(function () {
+const entry = () => $('svg.mindmaps').each(function () {
     const $svg = $(this);
     markmap($svg[0], transform(parse(JSON.parse($svg.data('content')))), {
         preset: $svg.attr('color') ? 'colorful' : 'default',
     });
 });
+
+// noinspection JSUnresolvedVariable
+gitbook.events.bind('page.change', entry);
