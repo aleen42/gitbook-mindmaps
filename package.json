@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-mind-maps",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A GitBook plugin for generating mindmaps within Markdown.",
   "main": "./index.js",
   "scripts": {
