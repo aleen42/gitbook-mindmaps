@@ -1,5 +1,7 @@
 .mindmaps {
     width: 100%;
-    border: 1px dashed #333;
+    border: 1px dashed #ededed;
     border-radius: 4px;
+    background: url(./gridme.png) repeat center center;
+    background-size: 20px 20px;
 }
