@@ -4,7 +4,8 @@ p.mindmaps-wrapper {
 
 svg.mindmaps {
     width: 80%;
-    border: 1px dashed #ededed;
+    /*noinspection CssUnresolvedCustomProperty*/
+    border: 2px dashed var(--mind-maps-border-color,#efefef);
     border-radius: 4px;
     background: url(./gridme.png) repeat center center;
     background-size: 20px 20px;
