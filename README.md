@@ -47,6 +47,7 @@ Generate mind maps with Markdown headings syntax:
  	* 1.0.4 bug fix
  	* 1.0.5 fix empty line
  	* 1.0.8 style enhancement
+ 	* 1.0.9 support custom border color
 
 ### :fuelpump: How to contribute
 
