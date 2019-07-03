@@ -1,6 +1,6 @@
 ## gitbook-mindmaps
 
-A GitBook plugin for generating mindmaps with markdown
+A GitBook plugin for generating mindmaps with markdown, and see the [**Demo**](https://aleen42.github.io/PersonalWiki/#about) directly.
 
 ![npm](https://aleen42.github.io/badges/src/npm.svg) ![javascript](https://aleen42.github.io/badges/src/javascript.svg) ![gitbook](https://aleen42.github.io/badges/src/gitbook_1.svg) ![gitbook](https://aleen42.github.io/badges/src/gitbook_2.svg)
 
