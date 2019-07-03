@@ -1,5 +1,9 @@
-.mindmaps {
-    width: 100%;
+p.mindmaps-wrapper {
+    margin: 0;
+}
+
+svg.mindmaps {
+    width: 80%;
     border: 1px dashed #ededed;
     border-radius: 4px;
     background: url(./gridme.png) repeat center center;

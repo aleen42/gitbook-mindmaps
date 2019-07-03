@@ -36,11 +36,11 @@ const handler = page => {
             return obj;
         }, {});
 
-        page.content = page.content.replace(block, `<svg
+        page.content = page.content.replace(block, `<p class="mindmaps-wrapper" align="center"><svg
             style="${height ? `height: ${height}px` : ''}"
             class="mindmaps" ${color ? 'color="true"' : ''}
             data-content="${escapeHTML(JSON.stringify(content))}"></svg>
-            ${title ? `<p align="center">${title}</p>` : ''}`);
+            ${title ? `<p align="center">${title}</p>` : ''}</p>`);
     }
 
     return page;
