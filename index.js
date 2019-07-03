@@ -38,8 +38,7 @@ const handler = page => {
 
         page.content = page.content.replace(block, `<svg
             style="${height ? `height: ${height}px` : ''}"
-            class="mindmaps"
-            ${color ? 'color="true"' : ''}
+            class="mindmaps" ${color ? 'color="true"' : ''}
             data-content="${escapeHTML(JSON.stringify(content))}"></svg>
             ${title ? `<p align="center">${title}</p>` : ''}`);
     }
