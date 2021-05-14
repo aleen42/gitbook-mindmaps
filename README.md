@@ -1,8 +1,8 @@
 ## gitbook-mindmaps
 
-A GitBook plugin for generating mindmaps with markdown, and see the [**Demo**](https://aleen42.github.io/PersonalWiki/#about) directly.
+A GitBook plugin for generating mindmaps with Markdown, and see the [**Demo**](https://wiki.aleen42.com/#about) directly.
 
-![npm](https://aleen42.github.io/badges/src/npm.svg) ![javascript](https://aleen42.github.io/badges/src/javascript.svg) ![gitbook](https://aleen42.github.io/badges/src/gitbook_1.svg) ![gitbook](https://aleen42.github.io/badges/src/gitbook_2.svg)
+![npm](https://badges.aleen42.com/src/npm.svg) ![javascript](https://badges.aleen42.com/src/javascript.svg) ![gitbook](https://badges.aleen42.com/src/gitbook_1.svg) ![gitbook](https://badges.aleen42.com/src/gitbook_2.svg)
 
 ![](https://img.shields.io/badge/%20%20JavaScript-%20%20%20%2020,233L-f1e05a.svg) ![](https://img.shields.io/badge/%20%20CSS-%20%20%20%2029L-563d7c.svg) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/aleen42/gitbook-mindmaps/master/LICENSE) [![npm](https://img.shields.io/npm/dt/gitbook-plugin-mind-maps.svg)](https://www.npmjs.com/package/gitbook-plugin-mind-maps)
 
@@ -20,22 +20,35 @@ Add the following plugins to your `book.json` and run the command `gitbook insta
 
 ### Usage
 
-Generate mind maps with Markdown headings syntax:
+1. Generate mind maps with Markdown headings syntax:
 
-````markdown
-```mind:height=300,title=a mind map of something,color
-# 1
-## 1.1
-### 1.1.1
-## 1.2
-# 2
-# 3
-```
-````
+    ````markdown
+    ```mind:height=300,title=a mind map of something,color
+    # 1
+    ## 1.1
+    ### 1.1.1
+    ## 1.2
+    # 2
+    # 3
+    ```
+    ````
 
-- **height** (optional): to specify the map height
-- **title** (optional): to specify a title for this map
-- **color** (optional): to generate a colorful map
+    - **height** (optional): to specify the map height
+    - **title** (optional): to specify a title for this map
+    - **color** (optional): to generate a colorful map
+
+2. Generate with Markdown list items syntax:
+
+    ````markdown
+    ```mind
+    - 1
+      - 1.1
+        - 1.1.1
+      - 1.2
+    - 2
+    - 3
+    ``` 
+    ````
 
 ### TODO
 
@@ -52,9 +65,9 @@ Generate mind maps with Markdown headings syntax:
 
 ### :fuelpump: How to contribute
 
-Have an idea? Found a bug? See [how to contribute](https://aleen42.github.io/PersonalWiki/contribution.html).
+Have an idea? Found a bug? See [how to contribute](https://wiki.aleen42.com/contribution.html).
 
 ### :scroll: License
 
-[MIT](https://aleen42.github.io/PersonalWiki/MIT.html) © aleen42
+[MIT](https://wiki.aleen42.com/MIT.html) © aleen42
 
