@@ -61,7 +61,7 @@ Add the following plugins to your `book.json` and run the command `gitbook insta
  	* 1.0.5 fix empty line
  	* 1.0.8 style enhancement
  	* 1.0.9 support custom border color
-    * 1.1.0 fix: disable maxNesting restriction in remarkable [#1](https://github.com/aleen42/gitbook-mindmaps/issues/1)
+    * 1.1.0 remove nested restriction in remarkable [#1](https://github.com/aleen42/gitbook-mindmaps/issues/1)
 
 ### :fuelpump: How to contribute
 
