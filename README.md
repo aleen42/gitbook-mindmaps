@@ -62,6 +62,7 @@ Add the following plugins to your `book.json` and run the command `gitbook insta
  	* 1.0.8 style enhancement
  	* 1.0.9 support custom border color
     * 1.1.0 remove nested restriction in remarkable [#1](https://github.com/aleen42/gitbook-mindmaps/issues/1)
+    * 1.1.3 support HTML tags [#1](https://github.com/aleen42/gitbook-mindmaps/issues/2)
 
 ### :fuelpump: How to contribute
 
