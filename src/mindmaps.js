@@ -14,7 +14,7 @@
  *  - Author: aleen42
  *  - Description: The runtime script
  *  - Create Time: Jun 27th, 2019
- *  - Update Time: Jun 27th, 2019
+ *  - Update Time: May 27th, 2021
  *
  */
 
@@ -28,11 +28,10 @@ const transform = require('markmap-transform');
 
 const markmap = require('markmap-mindmap');
 
-const entry = () => $('svg.mindmaps').each(function () {
-    const $svg = $(this);
-    markmap($svg[0], transform(parse(JSON.parse($svg.data('content')))), {
-        preset: $svg.attr('color') ? 'colorful' : 'default',
-    });
+const entry = () => document.querySelectorAll('svg.mindmaps').forEach(/** @type SVGElement */svg => {
+	markmap(svg, transform(parse(JSON.parse(svg.getAttribute('data-content')))), {
+		preset: svg.getAttribute('color') ? 'colorful' : 'default',
+	});
 });
 
 // noinspection JSUnresolvedVariable
