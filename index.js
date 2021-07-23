@@ -27,6 +27,7 @@ const escapeHTML = str => str.replace(/&/g, '&amp;')
 
 const handler = page => {
     let result;
+    page.content = page.content.replace("```markmap","```mind");
 
     while ((result = reg.exec(page.content))) {
         const [block, conditions, content] = result;
