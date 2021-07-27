@@ -65,6 +65,7 @@ Add the following plugins to your `book.json` and run the command `gitbook insta
     * 1.1.0 remove nested restriction in remarkable [#1](https://github.com/aleen42/gitbook-mindmaps/issues/1)
     * 1.1.4 support HTML tags [#2](https://github.com/aleen42/gitbook-mindmaps/issues/2)
     * 1.1.7 use gitbook-color to support light or dark theme
+    * 1.1.9 import eslint
 
 ### :fuelpump: How to contribute
 
