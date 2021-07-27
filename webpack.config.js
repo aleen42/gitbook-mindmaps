@@ -48,7 +48,6 @@ module.exports = {
     module: {
         rules: [
             {test: /\.css$/, loader: [MiniCssExtractPlugin.loader, 'css-loader']},
-            {test: /\.png$/, use: {loader: 'file-loader'}},
             {
                 /** babel */
                 test: /\.js?$/,
